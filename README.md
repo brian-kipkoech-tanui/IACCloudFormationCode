@@ -1,4 +1,4 @@
-### Load Balancer Link [ALB](http://udape-webap-18jg48nh95s0o-1117866257.us-west-2.elb.amazonaws.com/)
+### Load Balancer Link [ALB](http://udape-webap-1p2gpfwadh92l-1166738191.us-west-2.elb.amazonaws.com/)
 ### Project Title - Deploy a high-availability web app using CloudFormation
 This folder provides the code for the "C2- Infrastructure as Code - Deploy a high-availability web app using CloudFormation" project. Note that the Key Pairs have been deleted from the account for security reasons.
 The CloudFormation Code implements the following Architecture Diagram:

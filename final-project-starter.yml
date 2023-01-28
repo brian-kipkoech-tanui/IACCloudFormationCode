@@ -287,11 +287,9 @@ Resources:
                     apt-get install apache2 -y
                     systemctl start apache2.service
                     cd /var/www/html
-                    aws s3 cp s3://udagram-project-2-2023-546/udacityproj2.zip .
-                    unzip -o udacityproj2.zip
+                    aws s3 cp s3://udagram-project-2-2023-546/index.html .
                 
             ImageId: ami-095413544ce52437d
-            KeyName: udacityoregonkey
             IamInstanceProfile: !Ref ProfileWithRolesForOurApp
             SecurityGroups:
             -   Ref: WebServerSecGroup
